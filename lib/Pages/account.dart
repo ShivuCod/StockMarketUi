@@ -63,7 +63,7 @@ class Account extends ConsumerWidget {
             height(15),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                    minimumSize: const Size(120, 80),
+                    minimumSize: const Size(120, 60),
                     backgroundColor: buttoncolor),
                 onPressed: () {},
                 child: const Text(

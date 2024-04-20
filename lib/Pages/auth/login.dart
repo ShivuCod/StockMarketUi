@@ -28,7 +28,7 @@ class _LoginState extends ConsumerState<Login> {
             bottom: 200,
             left: 100,
             width: MediaQuery.of(context).size.width,
-            child: Image.asset("Spline.png"),
+            child: Image.asset("assets/Spline.png"),
           ),
           Positioned.fill(
             child: BackdropFilter(
@@ -37,7 +37,7 @@ class _LoginState extends ConsumerState<Login> {
             ),
           ),
           RiveAnimation.asset(
-            "shapes.riv",
+            "assets/shapes.riv",
             controllers: [riveAnimationController],
           ),
           Positioned.fill(
@@ -97,7 +97,7 @@ class _LoginState extends ConsumerState<Login> {
                         child: Stack(
                           children: [
                             RiveAnimation.asset(
-                              "button.riv",
+                              "assets/button.riv",
                               controllers: [riveAnimationController],
                             ),
                             Positioned(
